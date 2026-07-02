@@ -1,0 +1,15 @@
+# Secrets — never commit
+.env
+
+# Runtime / OS
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated content (drafts, publish queue, visual assets), but keep the folders
+weeklyDrafts/*
+weeklyPosts/*
+weeklyAssets/*
+!weeklyDrafts/.gitkeep
+!weeklyPosts/.gitkeep
+!weeklyAssets/.gitkeep

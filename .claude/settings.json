@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash scripts/activity.sh)",
+      "Bash(bash scripts/activity.sh:*)",
+      "Bash(bash scripts/discord.sh:*)",
+      "Bash(bash scripts/diagram.sh:*)",
+      "Bash(bash scripts/render.sh:*)",
+      "Bash(bash scripts/linkedin.sh post:*)",
+      "Read",
+      "Write(weeklyDrafts/**)",
+      "Write(weeklyAssets/**)",
+      "Write(memory/**)",
+      "Edit(memory/**)",
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
+}

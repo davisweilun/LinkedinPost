@@ -1,0 +1,64 @@
+<!doctype html>
+<!--
+  EXAMPLE ONLY — not a house template. The weekly visual is designed fresh per post at publish
+  time (see memory/DESIGN-SPEC.md), which is fully freeform: do NOT clone this look. This file
+  is kept solely as one worked reference for the render mechanics — a self-contained 1080x1350
+  card that scripts/render.sh can turn into a PNG (with a diagram PNG embedded via a local
+  <img src>). Design your own layout, palette, and type for each post instead of filling this in.
+-->
+<html>
+<head><meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; }
+  body {
+    background: #fbf8f1; color: #2b2620;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 72px 76px; overflow: hidden; position: relative;
+  }
+  .mono { font-family: "SF Mono", "Menlo", "Consolas", monospace; }
+  .head {
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 22px; letter-spacing: 0.06em; color: #6b6256; text-transform: uppercase;
+  }
+  .head .dot { color: #c97f3f; }
+  .rule { height: 3px; background: #e7dfce; margin: 34px 0 0; }
+  .headline {
+    font-size: 92px; line-height: 1.04; font-weight: 700; letter-spacing: -0.01em;
+    margin-top: 56px; color: #221d18;
+  }
+  .headline em { font-style: italic; color: #b8612a; }
+  .tagline {
+    font-size: 34px; line-height: 1.35; color: #5c5447; margin-top: 30px; max-width: 90%;
+  }
+  .panel {
+    margin-top: 56px; background: #ffffff; border: 1px solid #ece4d4;
+    border-radius: 22px; padding: 40px; box-shadow: 0 12px 40px rgba(80,60,30,0.06);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .panel img { max-width: 100%; max-height: 560px; height: auto; }
+  .foot {
+    position: absolute; left: 76px; right: 76px; bottom: 64px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 22px; color: #8a8073; letter-spacing: 0.04em;
+  }
+  .foot .accent { color: #c97f3f; }
+</style></head>
+<body>
+  <div class="head mono">
+    <span><span class="dot">●</span> {{WEEK}}</span>
+    <span>{{DATE}}</span>
+  </div>
+  <div class="rule"></div>
+
+  <div class="headline">{{HEADLINE}}</div>
+  <div class="tagline">{{TAGLINE}}</div>
+
+  <div class="panel"><img src="{{DIAGRAM}}" alt="workflow"></div>
+
+  <div class="foot mono">
+    <span>{{FOOTER}}</span>
+    <span class="accent">●●●</span>
+  </div>
+</body>
+</html>
