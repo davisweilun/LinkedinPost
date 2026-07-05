@@ -29,6 +29,9 @@ Everything else is free, but stay inside these so it renders and reads on Linked
   diagram PNG you rendered into the same folder). No external CSS/JS that needs network at load.
 - **Legible at feed size.** High contrast, generous sizes; assume it's viewed small on a phone.
 - **Readable, safe content only.** No misleading claims; match the post.
+- **No dates or week labels — ever.** Never put a date, week number, "week of …", or any
+  date-like tag on the image, and never derive one from the filename. The filename's `DDmonYY`
+  prefix exists **only** to order the publish queue; it is not content and must not be displayed.
 
 ## Choosing the graphic
 

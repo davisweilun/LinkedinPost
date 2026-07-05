@@ -13,3 +13,5 @@ action (newest at the bottom). Format:
 - 2026-06-22 generate  22jun26-agent-wrote-this-post.md  — markdown-driven LinkedIn agent + trading bot strategy overhaul  [discord: ok]
 - 2026-06-22 generate  22jun26-linkedin-agent-live.md  — LinkedIn automation agent fully assembled; agent writes post about itself  [card: ok] [discord: ok]
 - 2026-06-26 generate  26jun26-agent-writes-itself.md  — markdown-driven LinkedIn agent built this week; agent wrote post about its own creation  [card: ok] [discord: ok]
+- 2026-07-03 generate  03jul26-self-correcting-pipeline.md  — redesigned visual pipeline to generate post-approval + AWX EE Docker/skopeo cleanup  [discord: ok]
+- 2026-07-05 publish   26jun26-agent-writes-itself.md  — published (id=urn:li:share:7479348767486537728)  [visual: ok]
