@@ -24,7 +24,7 @@ needed — the routine agent *is* Claude.
 
 | Routine | Schedule (SGT) | Workflow file | Does |
 |---|---|---|---|
-| `linkedinpost-generate` | Weekly · Friday · 17:00 | [routines/generate.md](routines/generate.md) | `activity.sh` → write post per `CONTENT-STRATEGY.md` → save **text-only** draft → `discord.sh` → log |
+| `linkedinpost-generate` | Weekly · Friday · 15:00 | [routines/generate.md](routines/generate.md) | `activity.sh` → write post per `CONTENT-STRATEGY.md` → save **text-only** draft → `discord.sh` → log |
 | `linkedinpost-publish` | Weekly · Sunday · 19:00 | [routines/publish.md](routines/publish.md) | pick oldest in `weeklyPosts/` → **design the visual from the approved post** per `DESIGN-SPEC.md` (`diagram.sh` + `render.sh`) → `linkedin.sh post` (attaches the card) → delete the queued post, **keep its `.png`** in `weeklyAssets/` (clear intermediates) → log |
 
 Setup: Folder = this project, **Ask permissions** = Default (allowlist in `.claude/settings.json`

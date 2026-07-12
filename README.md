@@ -10,7 +10,7 @@ for the post rulebook. **All times Singapore (SGT).** Week = Saturday → Friday
 ## Flow
 
 ```
-Fri 5 PM  generate routine ──▶ weeklyDrafts/ (TEXT-ONLY draft) + Discord notice
+Fri 3 PM  generate routine ──▶ weeklyDrafts/ (TEXT-ONLY draft) + Discord notice
                                     │  I review + drag-drop approved files
                                     ▼
                                weeklyPosts/    (vetted queue)
@@ -62,7 +62,7 @@ contents into *Instructions*.
 
 | Name | Schedule (SGT) | Instructions = contents of |
 |---|---|---|
-| `linkedinpost-generate` | Weekly · Friday · 17:00 | [routines/generate.md](routines/generate.md) |
+| `linkedinpost-generate` | Weekly · Friday · 15:00 | [routines/generate.md](routines/generate.md) |
 | `linkedinpost-publish` | Weekly · Sunday · 19:00 | [routines/publish.md](routines/publish.md) |
 
 After creating **generate**, run it once manually to confirm it produces a draft + Discord
